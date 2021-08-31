@@ -14,6 +14,6 @@ try:
     r = input("please input your rate:")
     rate = float(r)
     p = computepay(hour,rate)
-    print(p)
+    print("Pay",p)
 except:
     print("Please,input your numberic")
